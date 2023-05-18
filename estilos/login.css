@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=Source+Sans+Pro&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+  background-color: #707070;  
+}
+header{
+  height: 70px;
+  background-color: rgb(0, 0, 0);
+}
+
+body{
+  background-color: rgb(29, 29, 29);
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+}
+
+nav img{
+  top: 15px;
+  position: relative;
+  right: 4vw;
+  width: 230px;
+  height: 42px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #01becf;
+  text-decoration: none;
+  padding: 18px;
+}
+
+.links{
+  display: flex;
+  letter-spacing: 2px;
+  list-style: none;
+  text-decoration: none;
+}
+.links a{
+  text-decoration: none;
+}
+
+.tudo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login{
+  width: 400px;
+  height: 100%;
+  border-radius: 10px;
+  background: #0d0d0d;;
+  margin-top:90px;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.2);
+}
+
+
+.title{
+  letter-spacing: 2px;
+  color: #01becf;
+}
+.opcs{
+  margin-top: 30px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input{
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  height: 4vh;
+  margin-bottom: 30px;
+}
+
+#btn{
+  background-color: #01becf;
+  border: none;
+  border-radius: 15px;
+  width: 102px;
+  height: 40px;
+  margin-left: 30px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}

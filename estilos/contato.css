@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=Source+Sans+Pro&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+header{
+  height: 70px;
+  background-color: rgb(0, 0, 0);
+}
+
+body{
+  background-color: rgb(29, 29, 29);
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+}
+
+nav img{
+  top: 15px;
+  position: relative;
+  right: 4vw;
+  width: 230px;
+  height: 42px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #01becf;
+  text-decoration: none;
+  padding: 18px;
+}
+
+.links{
+  display: flex;
+  letter-spacing: 2px;
+  list-style: none;
+  text-decoration: none;
+}
+.links a{
+  text-decoration: none;
+}
+
+.tudo{
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+.wrapper{
+  border-radius: 10px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  width: 470px;
+  flex-direction: column;
+  background-color: #0d0d0d;
+  box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.2);
+}
+
+.contacts{
+  color: #fff;
+  font-size: 20px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts p{
+  padding: 20px;
+}
